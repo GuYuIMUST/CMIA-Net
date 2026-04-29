@@ -35,7 +35,7 @@ create create_hdf5.py to make an hdf5 file.
 2.Tabular Data:The preprocessing of the tabular data can follow this link:https://github.com/LeavingStarW/PE-MVCNET/tree/main.In short,using LinearSVC for dimensionlity reduction on EHR data,then applying TabNet to generate embeddings.
 
 # Evaluation
-To run the evaluation,please execute the following command:
+To run the evaluation,please modify dir_dir,ckpt_path and save_dir in train.sh.Alternatively, manually place the commands in test.sh into the test.py file, so that the test.py file can also be executed directly.
 ```
 bash
 sh test.sh
@@ -47,7 +47,7 @@ python best_threshold.py
 ```
 
 # Training
-To train the model from scratch,execute:
+To train the model，please modify dir_dir,ckpt_path and svae_dir in train.sh.Alternatively, manually place the commands in train.sh into the train.py file, so that the train.py file can also be executed directly.
 ```
 bash
 sh train.sh
