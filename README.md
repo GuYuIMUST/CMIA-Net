@@ -3,6 +3,7 @@ Official PyTorch implementation of BiLGC-Net for pulmonary embolism classificati
 
 # Overview
 <img width="1013" height="551" alt="整体" src="https://github.com/user-attachments/assets/d2de22ed-99ea-46d3-95e1-10f9bd59a8a5" />
+The full implementation will be released after the associated paper is accepted.
 
 # Innovations
 1.3D Image Processing:Extracts complex emboli features using LPA (Local Pixel Attention) and GSA (Global Sparse Attention).
